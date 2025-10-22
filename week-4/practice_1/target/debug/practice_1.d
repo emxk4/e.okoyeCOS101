@@ -1,0 +1,1 @@
+C:\Users\TECHNOLOGY\OneDrive\Documents\Github\ COS101\e.okoyeCOS101\week-4\practice_1\target\debug\practice_1.exe: C:\Users\TECHNOLOGY\OneDrive\Documents\Github\ COS101\e.okoyeCOS101\week-4\practice_1\src\main.rs
