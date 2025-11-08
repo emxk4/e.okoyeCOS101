@@ -28,7 +28,7 @@ fn main() {
     println!("Would you like to continue(y/n)? : ");
     let mut choice = String::new();
     io::stdin().read_line(&mut choice).expect("Not a valid string");
-
+  
     if choice == "n" {
          println!("Program ended.");
          break;

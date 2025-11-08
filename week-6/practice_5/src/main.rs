@@ -1,11 +1,12 @@
 fn main() {
-    let fullname = "Pan-Atlantic University";
+    let fullname = "              Pan-AtlanticUniversity";
+
     println!();
-    println1("Name: {}", fullname);
+    println!("Name: {}", fullname);
     println!();
     println!("Before trim");
-    println!("length is {}", fullname.len());
+    println!("Length is {}", fullname.len());
     println!();
     println!("After trim");
-    println!("length is {]",fullname.trim().len());
+    println!("Length is {}", fullname.trim().len());
 }
