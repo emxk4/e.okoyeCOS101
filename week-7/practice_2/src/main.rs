@@ -11,7 +11,7 @@ fn checker(){
         println!("Character '{}' is a digit",ch);
     }
     else{
-        println1("Character '{}' is not a digit",ch);
+        println!("Character '{}' is not a digit",ch);
     }
 }
 

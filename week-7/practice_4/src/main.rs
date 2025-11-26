@@ -15,8 +15,8 @@ fn main() {
 
     let mut input2 = String::new();
     println!("Enter input for parameter B:");
-    io::stdin().read_line(&mut iput2).expect("Failed to read input");
-    let b:i32 = input 2.trim().parse().expect("Invalid input");
+    io::stdin().read_line(&mut input2).expect("Failed to read input");
+    let b:i32 = input2.trim().parse().expect("Invalid input");
 
     //call add function with arguments
     add(a,b);
