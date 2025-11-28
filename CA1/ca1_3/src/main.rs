@@ -18,10 +18,7 @@ fn main() {
         io::stdin().read_line(&mut input1).expect("Not a valid string");
         let item_code = input1.trim().to_uppercase();
 
-         println!("Enter the quantity you desire: ");
-        io::stdin().read_line(&mut input2).expect("Not a valid string");
-        let quantity:f64 = input2.trim().parse().expect("Not a valid number");
-
+        
         let price:f64;
 
         if item_code == "T" {
